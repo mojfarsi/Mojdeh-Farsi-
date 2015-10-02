@@ -1,0 +1,87 @@
+
+
+
+	<!DOCTYPE html>
+<html>
+<head>
+<title>My Personal Webpage</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<style>
+
+img.ex1 {
+    position: absolute;
+    bottom: 0px;
+}
+
+img.ex2 {
+    position: relative;
+    bottom: -100px;
+}
+
+p.one {
+    border-style: solid;
+    border-color: #0000ff;
+}
+
+p.two {
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+}
+
+p.three {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff;
+}
+
+p.four {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+}
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+    background-color: #00ff00;
+}
+
+p {
+    background-color: rgb(255,0,255);
+}
+</style>
+
+
+<div id="wrapper">
+
+	<div id="header">
+		<div id="nav"><a href="index.html">Home</a> | <a href="#">About Me</a> | <a href="#">Contact Me</a> | <a href="#">My Photos</a> | <a href="#">My Videos</a></div>
+		<div id="bg"></div>
+	</div>
+<p> ***** Welcome to Mojdeh Farsi Web Page *****</p>
+
+/* Have agreat day!*/
+<a href="http://www.github.com">Visit github.com!</a> 
+<ol>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+</ol>
+
+<ul>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+</ul>
+<img src="snow.gif" alt="Snow" height="60" width="70"> 
+<h1>Mojdeh </h1>
+<h2>Mojdeh </h2>
+<h3>Mojdeh </h3>
+<h4>Mojdeh </h4>
+<p>Good bye.</p> 
+
+ 
+</body>
+</html>
